@@ -111,8 +111,12 @@ def main():
         game_day_dfs = get_data(url=url,
                                 datasets_name=datasets,
                                 headers=HEADERS)
+        
+        if game_day_dfs is None:
+            continue
+
         game_day_dfs['date'] = date
-        sleep(0.2)
+        # sleep(0.2)
 
         # print(game_day_dfs['GameHeader'])
         print('There are %i games this day' % len(game_day_dfs['GameHeader']))

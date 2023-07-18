@@ -13,6 +13,24 @@ There are differents steps for this project :
 
 At this moment I'm at **[step 3]**.
 
+## Installation
+
+Follow [these instructions](https://gist.github.com/gaberogan/04ba526ed2752ebccabe1b77e33ee8b8) to install Python via pyenv and pyenv-virtualenv on MacOS with ZSH.
+
+Install dependencies:
+
+```sh
+pip install pandas joblib requests
+```
+
+Create the `data` folder:
+
+```sh
+mkdir data
+```
+
+Download [this dataset](https://www.kaggle.com/datasets/nathanlauga/nba-games) and put the CSV files in the `data` folder.
+
 ## 1. Collect data
 
 You can find how I collect the data on the `scripts/` folder. 

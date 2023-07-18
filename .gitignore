@@ -117,3 +117,6 @@ venv.bak/
 
 data/
 src/
+
+# MacOS
+.DS_Store
